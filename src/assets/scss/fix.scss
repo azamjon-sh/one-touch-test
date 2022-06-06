@@ -1,0 +1,44 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1340px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+.btn {
+  font-family: 'Forum', cursive;
+  background-color: transparent;
+  font-size: 30px;
+  line-height: 45px;
+  height: 75px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 3px solid #000000;
+  outline: none;
+  padding: 0 30px;
+  cursor: pointer;
+
+  &-black {
+    color: #000;
+    border-color: #000000;
+  }
+
+  &-white {
+    border-color: #fff;
+    color: #fff;
+    font-size: 42px;
+    line-height: 63px;
+  }
+}

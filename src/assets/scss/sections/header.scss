@@ -1,0 +1,28 @@
+.header {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+
+.header__grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.header__logo {
+  width: 184px;
+  cursor: pointer;
+}
+
+.header__basket {
+  cursor: pointer;
+  width: 54px;
+}
+
+.header__menu {
+  cursor: pointer;
+}
